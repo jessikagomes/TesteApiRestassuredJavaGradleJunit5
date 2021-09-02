@@ -1,0 +1,21 @@
+HTTP/1.1 201 
+!X-Content-Type-Options: nosniff
+!X-XSS-Protection: 1; mode=block
+?Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+ Content-Type: application/json
+Transfer-Encoding: chunked
+%Date: Wed, 01 Sep 2021 20:03:26 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "2": {
+        "nome": "joao",
+        "idade": 20,
+        "id": 2,
+        "risco": 0
+    }
+}
